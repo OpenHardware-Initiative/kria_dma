@@ -33,6 +33,11 @@ The `dma-proxy.ko` kernel module is failing to initialize because the kernel is 
     This indicates the kernel is rejecting the root-level fragment containing the `dma_proxy` node.
 
 ---
+## Hardware Block Diagram
+
+This is the core Vivado block design.
+
+![Vivado Block Diagram](hardware/kria_dma_vivado.png)
 
 ## File Structure
 
