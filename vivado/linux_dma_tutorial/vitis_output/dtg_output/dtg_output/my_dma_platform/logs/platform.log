@@ -1,0 +1,767 @@
+TRACE::2025-08-12.21:54:31::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:31::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:31::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:32::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:33::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:33::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:33::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-08-12.21:54:38::SCWPlatform::Opened new HwDB with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:38::SCWWriter::formatted JSON is {
+	"platformName":	"my_dma_platform",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"my_dma_platform",
+	"platHandOff":	"/nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dma_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/dma_test_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-08-12.21:54:38::SCWWriter::formatted JSON is {
+	"platformName":	"my_dma_platform",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"my_dma_platform",
+	"platHandOff":	"/nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dma_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/dma_test_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"my_dma_platform",
+	"systems":	[{
+			"systemName":	"my_dma_platform",
+			"systemDesc":	"my_dma_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"my_dma_platform"
+		}]
+}
+TRACE::2025-08-12.21:54:38::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:38::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:38::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:38::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:38::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:38::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:38::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:38::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:38::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:38::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:39::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:39::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:39::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:39::SCWDomain::checking for install qemu data   : 
+TRACE::2025-08-12.21:54:39::SCWDomain:: Using the QEMU Data from install at  : /nfs/tools/xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-08-12.21:54:39::SCWDomain:: Using the QEMU args  from install at  : /nfs/tools/xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-08-12.21:54:39::SCWDomain:: Using the PMUQEMU args from install at  : /nfs/tools/xilinx/Vitis/2024.1/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-08-12.21:54:39::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:39::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:39::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:39::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:39::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:39::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:39::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:39::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:39::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2025-08-12.21:54:39::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:39::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:39::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:39::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:39::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:39::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:39::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-08-12.21:54:39::SCWMssOS::No sw design opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:39::SCWMssOS::mss does not exists at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:39::SCWMssOS::Creating sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:39::SCWMssOS::Adding the swdes entry, created swdb /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:39::SCWMssOS::updating the scw layer changes to swdes at   /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:39::SCWMssOS::Writing mss at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:39::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-12.21:54:39::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-08-12.21:54:39::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-08-12.21:54:39::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-12.21:54:39::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2025-08-12.21:54:55::SCWMssOS::Saving the mss changes /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:55::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name system
+TRACE::2025-08-12.21:54:55::SCWMssOS::Writing the mss file completed /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:55::SCWMssOS::Commit changes completed.
+TRACE::2025-08-12.21:54:55::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:55::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:55::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:56::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:56::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:56::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:56::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:56::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:56::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:56::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:56::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:56::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:56::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:56::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:56::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:56::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:56::SCWWriter::formatted JSON is {
+	"platformName":	"my_dma_platform",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"my_dma_platform",
+	"platHandOff":	"/nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dma_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/dma_test_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"my_dma_platform",
+	"systems":	[{
+			"systemName":	"my_dma_platform",
+			"systemDesc":	"my_dma_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"my_dma_platform",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"a2dde818a1e2b501a651f747250a2d47",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-08-12.21:54:56::SCWPlatform::Started generating the artifacts platform my_dma_platform
+TRACE::2025-08-12.21:54:56::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-08-12.21:54:56::SCWPlatform::Started generating the artifacts for system configuration my_dma_platform
+LOG::2025-08-12.21:54:56::SCWSystem::Checking the domain device_tree_domain
+LOG::2025-08-12.21:54:56::SCWSystem::Not a boot domain 
+LOG::2025-08-12.21:54:56::SCWSystem::Started Processing the domain device_tree_domain
+TRACE::2025-08-12.21:54:56::SCWDomain::Generating domain artifcats
+TRACE::2025-08-12.21:54:56::SCWMssOS::Generating standalone artifcats
+TRACE::2025-08-12.21:54:56::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/resources/my_dma_platform/device_tree_domain/qemu_args.txt To /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/export/my_dma_platform/sw/my_dma_platform/qemu/
+TRACE::2025-08-12.21:54:56::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/resources/my_dma_platform/device_tree_domain/qemu_args.txt To /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/export/my_dma_platform/sw/my_dma_platform/qemu/
+TRACE::2025-08-12.21:54:56::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/resources/my_dma_platform/device_tree_domain/qemu_args.txt To /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/export/my_dma_platform/sw/my_dma_platform/device_tree_domain/qemu/
+TRACE::2025-08-12.21:54:56::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/resources/my_dma_platform/device_tree_domain/qemu_args.txt To /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/export/my_dma_platform/sw/my_dma_platform/device_tree_domain/qemu/
+TRACE::2025-08-12.21:54:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-08-12.21:54:56::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:56::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:56::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:56::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:56::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:56::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:56::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:56::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:56::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-12.21:54:56::SCWMssOS::Mss edits present, copying mssfile into export location /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-08-12.21:54:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-08-12.21:54:56::SCWDomain::Skipping the build for domain :  device_tree_domain
+TRACE::2025-08-12.21:54:56::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-08-12.21:54:56::SCWMssOS::Copying to export directory.
+TRACE::2025-08-12.21:54:56::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-08-12.21:54:56::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-08-12.21:54:56::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-08-12.21:54:56::SCWSystem::Completed Processing the domain device_tree_domain
+LOG::2025-08-12.21:54:56::SCWSystem::Completed Processing the sysconfig my_dma_platform
+LOG::2025-08-12.21:54:56::SCWPlatform::Completed generating the artifacts for system configuration my_dma_platform
+TRACE::2025-08-12.21:54:56::SCWPlatform::Started preparing the platform 
+TRACE::2025-08-12.21:54:56::SCWSystem::Writing the bif file for system config my_dma_platform
+TRACE::2025-08-12.21:54:56::SCWSystem::dir created 
+TRACE::2025-08-12.21:54:56::SCWSystem::Writing the bif 
+TRACE::2025-08-12.21:54:56::SCWPlatform::Started writing the spfm file 
+TRACE::2025-08-12.21:54:56::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-08-12.21:54:58::SCWPlatform::Completed generating the platform
+TRACE::2025-08-12.21:54:58::SCWMssOS::Saving the mss changes /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-12.21:54:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-12.21:54:58::SCWMssOS::Commit changes completed.
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWWriter::formatted JSON is {
+	"platformName":	"my_dma_platform",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"my_dma_platform",
+	"platHandOff":	"/nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dma_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/dma_test_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"my_dma_platform",
+	"systems":	[{
+			"systemName":	"my_dma_platform",
+			"systemDesc":	"my_dma_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"my_dma_platform",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"a2dde818a1e2b501a651f747250a2d47",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-08-12.21:54:58::SCWPlatform::updated the xpfm file.
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::Saving the mss changes /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-12.21:54:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-12.21:54:58::SCWMssOS::Commit changes completed.
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWWriter::formatted JSON is {
+	"platformName":	"my_dma_platform",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"my_dma_platform",
+	"platHandOff":	"/nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dma_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/dma_test_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"my_dma_platform",
+	"systems":	[{
+			"systemName":	"my_dma_platform",
+			"systemDesc":	"my_dma_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"my_dma_platform",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree_domain",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"a2dde818a1e2b501a651f747250a2d47",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::Saving the mss changes /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-12.21:54:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-12.21:54:58::SCWMssOS::Commit changes completed.
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWWriter::formatted JSON is {
+	"platformName":	"my_dma_platform",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"my_dma_platform",
+	"platHandOff":	"/nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dma_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/dma_test_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"my_dma_platform",
+	"systems":	[{
+			"systemName":	"my_dma_platform",
+			"systemDesc":	"my_dma_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"my_dma_platform",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree on psu_cortexa53_0",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"a2dde818a1e2b501a651f747250a2d47",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:54:58::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:54:58::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:54:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:54:58::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:54:58::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:54:58::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-12.21:54:58::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2025-08-12.21:55:18::SCWPlatform::Started generating the artifacts platform my_dma_platform
+TRACE::2025-08-12.21:55:18::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-08-12.21:55:18::SCWPlatform::Started generating the artifacts for system configuration my_dma_platform
+LOG::2025-08-12.21:55:18::SCWSystem::Checking the domain device_tree_domain
+LOG::2025-08-12.21:55:18::SCWSystem::Not a boot domain 
+LOG::2025-08-12.21:55:18::SCWSystem::Started Processing the domain device_tree_domain
+TRACE::2025-08-12.21:55:18::SCWDomain::Generating domain artifcats
+TRACE::2025-08-12.21:55:18::SCWMssOS::Generating standalone artifcats
+TRACE::2025-08-12.21:55:18::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/resources/my_dma_platform/device_tree_domain/qemu_args.txt To /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/export/my_dma_platform/sw/my_dma_platform/qemu/
+TRACE::2025-08-12.21:55:18::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/resources/my_dma_platform/device_tree_domain/qemu_args.txt To /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/export/my_dma_platform/sw/my_dma_platform/qemu/
+TRACE::2025-08-12.21:55:18::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/resources/my_dma_platform/device_tree_domain/qemu_args.txt To /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/export/my_dma_platform/sw/my_dma_platform/device_tree_domain/qemu/
+TRACE::2025-08-12.21:55:18::SCWMssOS::Copying the qemu file from  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/resources/my_dma_platform/device_tree_domain/qemu_args.txt To /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/export/my_dma_platform/sw/my_dma_platform/device_tree_domain/qemu/
+TRACE::2025-08-12.21:55:18::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-08-12.21:55:18::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:18::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:18::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:18::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:55:18::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:18::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:55:18::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:55:18::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:55:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:55:18::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:18::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-08-12.21:55:18::SCWMssOS::No sw design opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:18::SCWMssOS::mss exists loading the mss file  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:18::SCWMssOS::Opened the sw design from mss  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:18::SCWMssOS::Adding the swdes entry /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss with des name system
+TRACE::2025-08-12.21:55:18::SCWMssOS::updating the scw layer about changes
+TRACE::2025-08-12.21:55:18::SCWMssOS::Opened the sw design.  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:18::SCWMssOS::Completed writing the mss file at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp
+TRACE::2025-08-12.21:55:18::SCWMssOS::Mss edits present, copying mssfile into export location /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:18::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-08-12.21:55:18::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-08-12.21:55:18::SCWDomain::Building the domain as part of full build :  device_tree_domain
+TRACE::2025-08-12.21:55:18::SCWMssOS::doing bsp build ... 
+TRACE::2025-08-12.21:55:18::SCWMssOS::System Command Ran  cd  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp ; bash -c "make  " 
+TRACE::2025-08-12.21:55:18::SCWMssOS::make: Nothing to be done for 'all'.
+
+TRACE::2025-08-12.21:55:18::SCWMssOS::Copying to export directory.
+TRACE::2025-08-12.21:55:18::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-08-12.21:55:18::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-08-12.21:55:18::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-08-12.21:55:18::SCWSystem::Completed Processing the domain device_tree_domain
+LOG::2025-08-12.21:55:18::SCWSystem::Completed Processing the sysconfig my_dma_platform
+LOG::2025-08-12.21:55:18::SCWPlatform::Completed generating the artifacts for system configuration my_dma_platform
+TRACE::2025-08-12.21:55:18::SCWPlatform::Started preparing the platform 
+TRACE::2025-08-12.21:55:18::SCWSystem::Writing the bif file for system config my_dma_platform
+TRACE::2025-08-12.21:55:18::SCWSystem::dir created 
+TRACE::2025-08-12.21:55:18::SCWSystem::Writing the bif 
+TRACE::2025-08-12.21:55:18::SCWPlatform::Started writing the spfm file 
+TRACE::2025-08-12.21:55:18::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-08-12.21:55:19::SCWPlatform::Completed generating the platform
+TRACE::2025-08-12.21:55:19::SCWMssOS::Saving the mss changes /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:19::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-08-12.21:55:19::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-08-12.21:55:19::SCWMssOS::Commit changes completed.
+TRACE::2025-08-12.21:55:19::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:55:19::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:55:19::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:55:19::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:55:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:55:19::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:19::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:55:19::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:19::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:55:19::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:55:19::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:55:19::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:55:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:55:19::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:19::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:55:19::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:19::SCWWriter::formatted JSON is {
+	"platformName":	"my_dma_platform",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Expandable",
+	"platformDesc":	"my_dma_platform",
+	"platHandOff":	"/nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dma_test_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/dma_test_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"my_dma_platform",
+	"systems":	[{
+			"systemName":	"my_dma_platform",
+			"systemDesc":	"my_dma_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"my_dma_platform",
+			"sysActiveDom":	"device_tree_domain",
+			"sysDefaultDom":	"device_tree_domain",
+			"domains":	[{
+					"domainName":	"device_tree_domain",
+					"domainDispName":	"device_tree on psu_cortexa53_0",
+					"domainDesc":	"device_tree_domain",
+					"processors":	"psu_cortexa53_0",
+					"os":	"device_tree",
+					"sdxOs":	"device_tree",
+					"qemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/my_dma_platform/device_tree_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/my_dma_platform/device_tree_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssFile":	"",
+					"md5Digest":	"47e288e3255b3ccdc0c13e5ae5d3d2c7",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"device_tree":	{
+							"dt_overlay":	"true",
+							"dt_zocl":	"true",
+							"overlay_custom_dts":	"pl-final.dts",
+							"libOptionNames":	["dt_overlay", "dt_zocl", "overlay_custom_dts"]
+						},
+						"libsContainingOptions":	["device_tree"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-08-12.21:55:19::SCWPlatform::updated the xpfm file.
+TRACE::2025-08-12.21:55:19::SCWPlatform::Trying to open the hw design at /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA given /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA absoulate path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform::DSA directory /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw
+TRACE::2025-08-12.21:55:19::SCWPlatform:: Platform Path /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/hw/dma_test_wrapper.xsa
+TRACE::2025-08-12.21:55:19::SCWPlatform:: Unique name xilinx:kr260_som:xilinx:0.0
+TRACE::2025-08-12.21:55:19::SCWPlatform::Trying to set the existing hwdb with name dma_test_wrapper_1
+TRACE::2025-08-12.21:55:19::SCWPlatform::Opened existing hwdb dma_test_wrapper_1
+TRACE::2025-08-12.21:55:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-08-12.21:55:19::SCWMssOS::Checking the sw design at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
+TRACE::2025-08-12.21:55:19::SCWMssOS::DEBUG:  swdes dump  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss|system||
+
+TRACE::2025-08-12.21:55:19::SCWMssOS::Sw design exists and opened at  /nas/ei/home/ge42waw/Documents/DMA/linux_dma_tutorila/vitis_output/dtg_output/dtg_output/my_dma_platform/psu_cortexa53_0/device_tree_domain/bsp/system.mss
