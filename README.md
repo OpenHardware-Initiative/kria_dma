@@ -1,61 +1,55 @@
-# Kria KR260 DMA-Proxy Debugging Repository
+# Kria KR260 DMA Debugging Repository
 
-This repository contains the project files for debugging a DMA implementation on the Kria KR260, based on the Xilinx Wiki `dma-proxy` tutorials.
+This repository documents the process of implementing and debugging a userspace-controlled AXI DMA system on the Kria KR260 robotics kit. The goal is a stable DMA data transfer between the Processing System (PS) and Programmable Logic (PL).
 
-The goal is to successfully run the `dma-proxy` kernel driver and the `dma-proxy-test` userspace application with a custom AXI DMA hardware design. This project is part of our submission for the AMD Open Hardware Competition.
+This project is part of a submission for the AMD Open Hardware Competition.
 
-## Current Project Status: **Blocked**
+## Current Project Status: **Final Debugging Stage**
 
-The project is currently blocked at the software initialization stage. The hardware loads successfully, but the `dma-proxy` kernel driver fails to bind to the device tree, preventing the test application from running.
+The project has successfully pivoted to the robust `bperez77/xilinx_axidma` software stack. All software and device tree binding issues have been solved. The `axidma.ko` driver now successfully probes the hardware.
 
-### What Works ✅
-
-1.  **Hardware Generation:** A Vivado (2023.1) project with an AXI DMA loopback has been created. It successfully synthesizes, implements, and generates a bitstream (`.bin`) and hardware archive (`.xsa`).
-2.  **Hardware Loading:** The generated hardware (`.bin`, `.dtbo`, `shell.json`) is successfully loaded onto the Kria KR260 using `xmutil`.
-3.  **Low-Level Kernel Driver:** After loading the hardware, `dmesg` confirms that the kernel's built-in `xilinx-dma` driver successfully probes the AXI DMA at its memory-mapped address (`0xA0000000`). This proves the hardware itself is functional and visible to the kernel.
-
-### The Core Problem ❌
-
-The `dma-proxy.ko` kernel module is failing to initialize because the kernel is silently rejecting the `dma_proxy` node from the device tree overlay.
-
-#### Key Evidence:
-
-1.  **Driver `probe` is not called:** When `sudo insmod dma-proxy.ko` is run, debug `pr_info` statements placed at the start of the `dma_proxy_probe` function do not appear in `dmesg`. This confirms the driver is never matched with a device.
-2.  **Device Tree Node is Missing:** After loading the hardware with `xmutil`, checking the live device tree shows the node is absent:
-    ```bash
-    ls /proc/device-tree/dma_proxy
-    # Output: No such file or directory
-    ```
-3.  **Specific Kernel Error:** Using dynamic debug (`dynamic_debug`), we captured the specific error message from the kernel's overlay manager:
-    ```
-    OF: overlay: init_overlay_changeset() ovcs->overlay_root is not dynamic
-    ```
-    This indicates the kernel is rejecting the root-level fragment containing the `dma_proxy` node.
+The final remaining issue is a **hardware-level memory corruption bug** that occurs when a DMA transfer is initiated.
 
 ---
+
+## Debugging Journey Summary
+
+### Initial Approach (Deprecated)
+
+The initial attempt followed the Xilinx Wiki "DMA Proxy" tutorial. This approach was ultimately unsuccessful due to a fundamental incompatibility between the tutorial's device tree requirements and the Kria's kernel overlay manager, which resulted in a silent driver probe failure. The code for this is in `/Software/linux_dma_tutorial (deprecated)`.
+
+### Current Approach (`xilinx_axidma`) - Near Success
+
+We pivoted to the `bperez77/xilinx_axidma` driver, which proved to be a much more stable and transparent software stack.
+
+#### What Works ✅
+
+1.  **Hardware Generation:** A complete Vivado (2024.1) project has been built and fully debugged. It correctly generates all required artifacts (`.bin`, `.xsa`, `.dtbo`).
+2.  **Hardware Loading & Probing:** The custom hardware is successfully loaded onto the Kria using `xmutil`. The kernel's low-level `xilinx-dma` driver successfully probes the AXI DMA, confirming the hardware is fundamentally sound.
+3.  **Device Tree Binding:** After significant debugging, a correct device tree overlay was created. This overlay is successfully applied by the kernel.
+4.  **Driver Initialization:** The `axidma.ko` kernel module **successfully probes** and initializes. `dmesg` confirms the driver finds the DMA channels:
+    ```
+    axidma: ... DMA: Found 1 transmit channels and 1 receive channels.
+    ```
+5.  **Userspace Communication:** The `axidma_benchmark` application successfully opens the `/dev/axidma` device file and initiates a DMA transfer.
+
+#### The Core Problem: Source Memory Corruption ❌
+
+Despite the entire software stack now being functional, the system fails the moment a real data transfer begins.
+
+*   **Symptom:** The `axidma_benchmark` test application fails with the following error:
+    ```
+    Test failed! The transmit buffer was overwritten at byte 0.
+    Expected 0x1234acde, found 0x000000de.
+    ```
+
+*   **Root Cause:** This is a **hardware-level memory corruption bug**. The AXI DMA IP, upon being commanded to *read* from the source `tx_buf`, is instead performing a faulty AXI transaction that *destroys* the contents of that same buffer.
+
+*   **Most Likely Cause:** This behavior is a classic symptom of a **misconfiguration in the hardware coherency settings**. The Vivado design currently enables hardware coherency (`dma-coherent`, `AxCACHE`/`AxPROT` signals). An issue in this complex system is the primary suspect for the memory corruption.
+
 ## Hardware Block Diagram
 
 This is the core Vivado block design.
 
 ![Vivado Block Diagram](hardware/kria_dma_vivado.png)
 
-## File Structure
-
-This repository contains the key files used in the project.
-
-### `/hardware`
-
-*   `pl.dtsi`: The final, manually edited device tree source file that is compiled into the `.dtbo`. This is the file at the heart of the issue.
-*   `vivado_screenshot.png`: A screenshot of the core Vivado block diagram.
-
-### `/software`
-
-This directory contains the source code from the [Xilinx-Wiki-Projects/software-prototypes](https://github.com/Xilinx-Wiki-Projects/software-prototypes) repository.
-
-*   `/software/Kernel/`:
-    *   `dma-proxy.c`: The kernel module source, instrumented with `pr_info` statements for debugging.
-    *   `Makefile`: The `Makefile` used to compile the kernel module on the Kria.
-*   `/software/User/`:
-    *   `dma-proxy-test.c`: The userspace test application.
-*   `/software/Common/`:
-    *   `dma-proxy.h`: The shared header file.
